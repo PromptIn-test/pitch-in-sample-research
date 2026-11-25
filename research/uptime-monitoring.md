@@ -12,12 +12,12 @@ Maple Street Bakery can watch its website for free with a hosted service. Of the
 | --- | --- | --- | --- | --- |
 | UptimeRobot | Free plan, $0 per month, no credit card needed | 50 monitors, 5-minute checks | Includes 1 status page with no customisation. Terms allow business use but bar reselling its status pages or alerts. | [1] |
 | Better Stack Uptime | Price of the free plan not found | 10 monitors, 3-minute checks | Free plan includes a status page and 10 heartbeat monitors. | [2] |
-| StatusCake | Price of the free plan not found | 10 uptime monitors, 5-minute checks | Also 1 page speed, 1 domain and 1 SSL monitor. One StatusCake page appears to say 1-minute checks for free; this looks like an error. | [3] |
-| Uptime Kuma | Software cost not stated on the page (MIT licence); the bakery pays for its own server | Limits not stated | Self-hosted. Needs Docker or Node.js 20.4 or newer. Sends alerts by email, Telegram, Slack and others. Has status pages. | [4] |
+| StatusCake | Price of the free plan not found | 10 uptime monitors, 5-minute checks | Also 1 page speed, 1 domain and 1 SSL monitor. Sources disagree on the free check interval; 5 minutes is the figure most sources give. | [3] |
+| Uptime Kuma | Software cost not stated on the page (MIT licence); server cost not stated | Limits not stated | Self-hosted. Needs Docker or Node.js 20.4 or newer. Sends alerts by email, Telegram, Slack and others. Has status pages. | [4] |
 
 ## Recommendation
 
-Use UptimeRobot. It allows the most free monitors, a 5-minute check is fine for a bakery site, and its terms allow business use [1]. Choose Better Stack if faster checks matter more than the monitor count [2]. Skip Uptime Kuma unless someone at the bakery already runs a server [4]. Confirm the free limits on the vendor's own page before signing up.
+Use UptimeRobot. It allows the most free monitors, and its terms allow business use [1]. Choose Better Stack if faster checks matter more than the monitor count [2]; skip Uptime Kuma unless someone at the bakery already runs a server [4].
 
 ## Sources
 
